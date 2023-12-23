@@ -14,7 +14,7 @@ jobs:
 
     - name: Fetch Upstream Changes
       run: |
-        git remote add upstream https://github.com/original-owner/original-repo.git
+        git remote add upstream https://github.com/smartfoloo/platformer.io
         git fetch upstream
         git merge upstream/main
         git push origin main
